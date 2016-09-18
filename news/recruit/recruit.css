@@ -1,0 +1,48 @@
+.recruit{
+	width: 70%;
+	padding: 5px auto;
+}
+.recruit h3{
+	text-align: center;
+	padding-top: 8px;
+}
+a.formdownload{
+display: inline-block;
+}
+#form1{
+	padding-bottom: 20px;
+}
+/*------------------------tablet size---------------------------------------*/
+
+@media (min-width: 768px) and (max-width: 1055px){
+.recruit{
+	width: 80%;
+	padding: 5px auto;
+}
+.recruit h3{
+	font-size: 20px;
+	text-align: center;
+	padding-top: 5px;
+}
+.recruit h4{
+	font-size:17px;
+}
+}
+
+/*------------------------phone size---------------------------------------*/
+
+@media (max-width: 768px){
+.recruit{
+	width: 95%;
+	padding: 5px auto;
+}
+.recruit h3{
+	font-size: 18px;
+	text-align: center;
+	padding-top: 5px;
+}
+.recruit h4{
+	font-size:16px;
+}
+
+}

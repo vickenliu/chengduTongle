@@ -1,0 +1,12 @@
+.waitcol{
+	margin-top: 25px;
+}
+.waitcol img{
+	display: block;
+	margin: 2px auto;
+	margin-bottom: 20px;
+}
+.waitcol h4{
+	color: gray;
+	text-align: center;
+}

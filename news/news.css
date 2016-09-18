@@ -1,0 +1,21 @@
+.panel-group{
+	margin-top: 10px;
+}
+div.spare{
+	height: 300px;
+}
+
+
+
+/*------------------------tablet size---------------------------------------*/
+
+@media (min-width: 768px) and (max-width: 1055px){
+
+}
+
+/*------------------------phone size---------------------------------------*/
+
+@media (max-width: 768px){
+
+
+}

@@ -1,0 +1,64 @@
+body{
+	background-color: #FEFEFE;
+}
+div>h2{
+	text-align: center;
+	padding-bottom: 0px;
+}
+div.content{
+	padding-top: 70px;
+	font-size: 20px;
+}
+div.row{
+	border-bottom: 1px solid gray;
+}
+
+div.lastrow{
+	border-bottom: 0px;
+}
+/*------------------------tablet size---------------------------------------*/
+
+@media (min-width: 768px) and (max-width: 1055px){
+body{
+	background-color: #FEFEFE;
+}
+div>h2{
+	text-align: center;
+	padding-bottom: 0px;
+	font-size: 23px;
+}
+div.content{
+	padding-top: 50px;
+	font-size: 16px;
+}
+
+}
+
+/*------------------------phone size---------------------------------------*/
+
+@media (max-width: 768px){
+body{
+	background-color: #FEFEFE;
+}
+div>h2{
+	text-align: center;
+	padding-bottom: 0px;
+	font-size: 22px;
+}
+img.contentimg{
+	float: left;
+	height: 130px;
+}
+div.content{
+	text-align: center;
+	padding-top: 2px;
+	font-size: 16px;
+}
+
+
+}
+
+
+
+
+

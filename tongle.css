@@ -1,0 +1,273 @@
+body{
+	font-family: "Microsoft YaHei",微软雅黑,STZhongsong,Arial,"Arial Unicode MS";
+}
+nav.navbar{
+	margin: 0px;
+	padding: 5px auto;
+	background-color: #BEBEBE;
+}	
+#logo img{
+	display: inline-block;
+}
+#logo{
+	padding-left: 25px;
+}
+ul.nav{
+	padding-top: 25px;
+	font-size: 16px;
+	padding-bottom: 20px;
+}
+.navbar-default ul.navbar-nav li.active a{
+	background-color: white;
+ 	border-radius: 6px;
+ 	color: black;
+}
+.navbar-default ul.navbar-nav li:hover{
+	background-color: white;
+ 	border-radius: 6px;
+ 	color: black;
+ 	-webkit-transition: background-color .5s ease-in;
+  -moz-transition: background-color .5s ease-in;
+  -ms-transition: background-color .5s ease-in;
+  -o-transition: background-color .5s ease-in;
+  transition:  background-color .5s ease-in;
+}
+.imgcontainer{
+	position: relative;
+}
+img.zimg{
+	z-index: 0;
+}
+img.noter{
+	position: absolute;
+	right:10;
+	top: -20;
+	z-index: 0;
+}
+#zhaopin img:hover{
+ -ms-transform: rotate(5deg); /* IE 9 */
+    -webkit-transform: rotate(5deg); /* Chrome, Safari, Opera */
+    transform: rotate(5deg);
+}
+div.tonglecontainer{
+	padding: 0px;
+	margin: 0px;
+}
+div.tonglecol{
+	margin: 0px;
+	padding: 0px;
+}
+div.thumbnail{
+	border: 0px;
+}
+.container>h2{
+	margin-left: 25px;
+}
+div.caption{
+	text-align: center;
+}
+footer{
+	margin:0px;
+	padding-left: 50px;
+	padding-top: 10px;
+	background-color: #BEBEBE;
+}
+
+img.hezuoimg{
+	height: 60px;
+}
+a+img{
+margin:0px;
+	padding: 0px;
+}
+ul.partners{
+	display: inline-block;
+	float: center;
+	margin-left: 0px;
+	list-style: none;
+}
+ul.partners li{
+	display: inline-block;
+}
+#footerheader{
+	display: inline-block;
+	float: left;
+}
+div.tonglecol>p{
+	text-align: center;
+	margin-top: 0px;
+	padding-top: 0px;
+}
+
+/*------------------------tablet size---------------------------------------*/
+
+@media (min-width: 768px) and (max-width: 1055px){
+  .nav-collapse.collapse {
+    display: block !important;
+    height: auto !important;
+    overflow: visible !important;
+  }
+nav.navbar{
+	height: auto;
+	margin: 0px;
+	padding: 5px auto;
+	background-color: #BEBEBE;
+}	
+#logo img{
+	display: inline-block;
+}
+#logo{
+	padding-left: 5px;
+	margin-left: 0px;
+}
+#logo1{
+	height: 50px;
+}
+#logo2{
+	height: 25px;
+}
+ul.nav{
+	padding-top: 20px;
+	font-size: 13px;
+	padding-bottom: 15px;
+}
+.navbar-default ul.navbar-nav li.active a{
+	background-color: white;
+ 	border-radius: 5px;
+ 	color: black;
+}
+.navbar-default ul.navbar-nav li:hover{
+	background-color: white;
+ 	border-radius: 5px;
+ 	color: black;
+ 	-webkit-transition: background-color .5s ease-in;
+  -moz-transition: background-color .5s ease-in;
+  -ms-transition: background-color .5s ease-in;
+  -o-transition: background-color .5s ease-in;
+  transition:  background-color .5s ease-in;
+}
+.imgcontainer{
+	position: relative;
+}
+img.noter{
+	height: 110px;
+	position: absolute;
+	right:0;
+	top: -20;
+}
+div.thumbnail{
+	border: 0px;
+}
+.container>h2{
+	margin-left: 25px;
+	font-size: 23px;
+}
+
+
+}
+
+/*--------------------------phone size------------------------------------*/
+@media (max-width: 768px){
+
+ .nav-collapse.collapse {
+    display: block !important;
+    height: auto !important;
+    overflow: visible !important;
+  }
+nav.navbar{
+	height: auto;
+	margin: 0px;
+	padding: 5px auto;
+	background-color: #BEBEBE;
+}	
+#logo{
+	display: inline-block;
+	padding-top: 6px;
+}
+#logo{
+	padding-left: -10px;
+	margin-left: 0px;
+}
+#logo1{
+	padding-top: 0px;
+	height: 37px;
+}
+#logo2{
+	height: 26px;
+}
+ul.nav{
+	padding-top: 0px;
+	font-size: 15px;
+	padding-bottom: 0px;
+}
+.imgcontainer{
+	position: relative;
+}
+img.noter{
+	height: 80px;
+	position: absolute;
+	left:14;
+	top: -10;
+}
+div.thumbnail{
+	border: 0px;
+}
+.container>h2{
+	margin-left: 25px;
+	font-size: 20px;
+}
+#zhaopin img:hover{
+ -ms-transform: rotate(-5deg); /* IE 9 */
+    -webkit-transform: rotate(-5deg); /* Chrome, Safari, Opera */
+    transform: rotate(-5deg);
+}
+div.caption{
+	text-align: center;
+}
+div.caption h3{
+	font-size: 18px;
+}
+footer{
+	margin:0px;
+	padding-left: 50px;
+	padding-top: 10px;
+	background-color: #BEBEBE;
+}
+
+img.hezuoimg{
+	height: 45px;
+}
+a+img{
+margin:0px;
+	padding: 0px;
+}
+ul.partners{
+	display:inline-block;
+	float: center;
+	margin-left: 0px;
+	list-style: none;
+}
+ul.partners li{
+	display: inline-block;
+}
+#footerheader{
+	display:block;
+	float: center;
+	font-size: 18px;
+}
+div.tonglecol>p{
+	text-align: center;
+	margin-top: 0px;
+	padding-top: 0px;
+	font-size: 90%;
+}
+
+}
+
+
+
+
+
+
+
+
